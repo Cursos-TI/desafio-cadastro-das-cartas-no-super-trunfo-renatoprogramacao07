@@ -76,7 +76,7 @@ int main() {
 
     printf("Quantidade de pontos turisticos na cidade: ");
     scanf("%d", &turismo2);
-    printf("A quantidade é: %d", turismo2);
+    printf("A quantidade é: %d\n", turismo2);
 
     densidade2 = populacao2 / area2;
     printf("A densidade populacional é: %f\n", densidade2);
