@@ -8,66 +8,85 @@ int main() {
     float area, area2;
     float pib, pib2;
     int turismo, turismo2;
+    float densidade,densidade2,pibpercapita, pibpercapita2;
+
     
     printf("Carta1\n");
 
-    printf("digite o estado: ");
+    printf("Digite o estado: ");
     scanf("%c", &estado);
-    printf("o estado é: %c\n", estado);
+    printf("O estado é: %c\n", estado);
 
-    printf("digite o codigo: ");
+    printf("Digite o codigo: ");
     scanf("%s", codigo);
-    printf("o codigo é: %s\n", codigo);
+    printf("O codigo é: %s\n", codigo);
 
-    printf("nome da cidade: ");
+    printf("Nome da cidade: ");
     scanf("%s", nome);
-    printf("o nome é: %s\n", nome);
+    printf("O nome é: %s\n", nome);
 
-    printf("digite a populacao: ");
+    printf("Digite a populacao: ");
     scanf("%d", &populacao);
-    printf("a populacao é: %d\n", populacao);
+    printf("A populacao é: %d\n", populacao);
 
-    printf("digite a area: ");
+    printf("Digite a area: ");
     scanf("%f", &area);
-    printf("a area é: %f\n", area);
+    printf("A area é: %f\n", area);
 
-    printf("digite o Pib: ");
+    printf("Digite o Pib: ");
     scanf("%f", &pib);
-    printf("o Pib é: %f\n", pib);
+    printf("O Pib é: %f\n", pib);
 
     printf("Quantidade de pontos turisticos na cidade: ");
     scanf("%d", &turismo);
-    printf("a quantidade é: %d\n", turismo);
+    printf("A quantidade é: %d\n", turismo);
+
+    densidade = populacao / area;
+    printf("A densidade populacional é: %f\n", densidade);
+
+    pibpercapita = pib / populacao;
+    printf("O Pib per capita é: %f\n", pibpercapita);
+
 
     printf("Carta2\n");
 
-    printf("digite o estado: ");
+    printf("Digite o estado: ");
     scanf(" %c", &estado2);
-    printf("o estado é: %c\n", estado2);
+    printf("O estado é: %c\n", estado2);
 
-    printf("digite o codigo: ");
+    printf("Digite o codigo: ");
     scanf(" %s", codigo2);
-    printf("o codigo é: %s\n", codigo2);
+    printf("O codigo é: %s\n", codigo2);
     
-    printf("nome da cidade: ");
+    printf("Nome da cidade: ");
     scanf("%s", nome2);
-    printf("o nome é: %s\n", nome2);
+    printf("O nome é: %s\n", nome2);
 
-    printf(" digite a populacao: ");
+    printf("Digite a populacao: ");
     scanf("%d", &populacao2);
-    printf("a populacao é: %d\n", populacao2);
+    printf("A populacao é: %d\n", populacao2);
 
-    printf("digite a area: ");
+    printf("Digite a area: ");
     scanf("%f", &area2);
-    printf("a area é: %f\n", area2);
+    printf("A area é: %f\n", area2);
     
-    printf("digite o Pib: ");
+    printf("Digite o Pib: ");
     scanf("%f", &pib2);
-    printf("o Pib é: %f\n", pib2);
+    printf("O Pib é: %f\n", pib2);
 
     printf("Quantidade de pontos turisticos na cidade: ");
     scanf("%d", &turismo2);
     printf("A quantidade é: %d", turismo2);
+
+    densidade2 = populacao2 / area2;
+    printf("A densidade populacional é: %f\n", densidade2);
+ 
+    pibpercapita2 = populacao2 / pib2;
+    printf("O PIB per capita é: %f\n", pibpercapita2);
+
+
+
+
 
 
 
